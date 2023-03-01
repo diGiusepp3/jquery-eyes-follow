@@ -40,7 +40,9 @@ minTop	25	De minimum verticale positie van het oog element in procenten.
 maxTop	75	De maximum verticale positie van het oog element in procenten.
 
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 Introduction
 
 jquery-eyes-follow-mouse is a lightweight jQuery plugin that allows you to add eye-tracking effects to any element on your web page. With this plugin, you can define a 'watched' element and specify which elements within it should follow the mouse. The eyes smoothly track the mouse movement, even if it's outside the watched element.
