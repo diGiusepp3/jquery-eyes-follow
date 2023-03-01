@@ -39,40 +39,45 @@ maxLeft	75	De maximum horizontale positie van het oog element in procenten.
 minTop	25	De minimum verticale positie van het oog element in procenten.
 maxTop	75	De maximum verticale positie van het oog element in procenten.
 
+Om jquery-eyes-follow-mouse in actie te zien, bekijk het meegeleverde demo.html bestand. Dit bestand bevat verschillende voorbeelden van hoe je de plugin kunt gebruiken, samen met uitleg over de verschillende opties en hun effecten.
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-Introduction
+jquery-eyes-follow-mouse is a lightweight plugin that allows you to easily add eye-tracking effects to any element on a webpage. The plugin enables you to define a 'watched' element and specify which elements inside should move along with the mouse. The eyes smoothly follow the mouse movement, even when it's outside the watched element. Perfect for adding personality to your website design!
 
-jquery-eyes-follow-mouse is a lightweight jQuery plugin that allows you to add eye-tracking effects to any element on your web page. With this plugin, you can define a 'watched' element and specify which elements within it should follow the mouse. The eyes smoothly track the mouse movement, even if it's outside the watched element.
-Features
+Installation
 
-    Easy to use: simply include the plugin script and call the eyesFollowMouse() method on your target element(s).
-    Customizable: adjust various settings, such as the size and color of the eyes, to fit your website's design.
-    Lightweight: the plugin is only a few kilobytes in size and won't slow down your website's loading time.
-    Cross-browser compatible: works on all major browsers, including Chrome, Firefox, Safari, and Internet Explorer.
+Download the jquery-eyes-follow-mouse plugin and save it in your project.
 
-Usage
+Add the jQuery library to your HTML file:
 
-To use jquery-eyes-follow-mouse, simply include the plugin script in your HTML file and call the eyesFollowMouse() method on your target element(s) using jQuery. For example:
+html
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+Add the jquery-eyes-follow-mouse plugin to your HTML file:
+
+html
+
+<script src="jquery-eyes-follow-mouse.js"></script>
+Initialize the plugin in your JavaScript file:
 
 javascript
 
-$('.my-element').eyesFollowMouse();
+$(".watched-element").eyesFollowMouse();
 
-You can also pass in an options object to customize the plugin's behavior. For a full list of available options and their default values, see the Options section below.
-Options
+Usage
 
-jquery-eyes-follow-mouse supports several options that you can use to customize the plugin's behavior. To use these options, simply pass in an options object when calling the eyesFollowMouse() method on your target element(s). Here are the available options:
+The plugin can be customized with a number of options:
 
-    eyeSize: the size of the eyes in pixels (default: 20)
-    eyeColor: the color of the eyes (default: 'black')
-    pupilSize: the size of the pupils in pixels (default: 6)
-    pupilColor: the color of the pupils (default: 'white')
-    watchedElement: the element to watch for mouse movement (default: the target element(s) passed to the eyesFollowMouse() method)
-    watchedArea: the area within the watched element to track with the eyes (default: the entire watched element)
-
-Examples
+Option Default Value Description
+eyeSelector ".eye-retina" Selector for the eye element
+centerSelector null Selector for the center point element. If no center point is specified, the watched element will be the center point.
+cursorXOffset 0 The horizontal offset of the cursor position in pixels.
+cursorYOffset 0 The vertical offset of the cursor position in pixels.
+minLeft 25 The minimum horizontal position of the eye element in percentages.
+maxLeft 75 The maximum horizontal position of the eye element in percentages.
+minTop 25 The minimum vertical position of the eye element in percentages.
+maxTop 75 The maximum vertical position of the eye element in percentages.
 
 To see jquery-eyes-follow-mouse in action, check out the included demo.html file. This file contains several examples of how to use the plugin, along with explanations of the different options and their effects.
