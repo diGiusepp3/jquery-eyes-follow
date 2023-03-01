@@ -1,10 +1,8 @@
 #jquery-eyes-follow-mouse
 
 Een demo van een jQuery-plugin waarmee de ogen op een pagina de muisbewegingen volgen.
-Voorbeeld
 
-Je kunt de demo bekijken op deze pagina.
-Gebruik
+
 
 Om deze plugin in je eigen project te gebruiken, kun je de volgende stappen volgen:
 
